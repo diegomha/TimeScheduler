@@ -1,0 +1,17 @@
+.login {
+    background-color: var(--blue-100);
+    color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 18.75rem;
+    border-radius: 5px;
+}
+
+.buttonSubmit {
+    width: 100%;
+    background-color: #0a58ca !important;
+}
