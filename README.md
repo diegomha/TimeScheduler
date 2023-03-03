@@ -1,6 +1,6 @@
 <b>To run:</b>
 
-<div>npm -i -> Install all references</ div>
+<div>npm i -> Install all references</ div>
 <div>npm run dev -> run the project</ div>
 
 -------------------------------------
