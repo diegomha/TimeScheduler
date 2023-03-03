@@ -8,9 +8,9 @@ import { ptBR } from "date-fns/locale";
 import { format } from  'date-fns';
 import { ProcessedEvent } from '@aldabil/react-scheduler/types';
 
-export function Calendar() {
-
+export function Calendar( ) {
     const { resourceViewMode, setResourceViewMode } = useScheduler();
+    
     const EVENTS : ProcessedEvent[] = [
         {
           event_id: 1,
@@ -71,6 +71,7 @@ export function Calendar() {
 
     return (
         <article className={styles.calendar}>
+            
             <div style={{ textAlign: "center" }}>
                 <span>Resource View Mode: </span>
                 <Button

@@ -2,14 +2,14 @@ import { Routes, Route  } from 'react-router-dom';
 import { Default } from './layout/Default';
 import { Admin } from './layout/Admin';
 import { Login } from './Pages/Login';
-import { CalendarStatus } from './Pages/CalendarStatus';
+import { CalendarAdmin } from './Pages/CalendarAdmin';
 
 export function Router() {
     return (
         <Routes>
             <Route path='/' element={ <Default /> } >
                 <Route path='/login' element={ <Login /> } />
-                <Route path='/calendar' element={ <CalendarStatus /> } />
+                <Route path='/calendar/:company?' element={ <CalendarAdmin /> } />
             </Route>
 
             {/* admin/home ou admin  */}
