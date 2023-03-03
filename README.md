@@ -1,4 +1,4 @@
 To run:
 
-npm -i -> Install all references
-npm run dev -> run the project
+<div>npm -i -> Install all references</ div>
+<div>npm run dev -> run the project</ div>
